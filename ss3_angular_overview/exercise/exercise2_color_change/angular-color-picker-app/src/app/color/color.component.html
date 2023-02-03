@@ -1,0 +1,6 @@
+<p [ngStyle]="{color: color.color}">color works!</p>
+<p>{{color.color}}</p>
+
+Change color<input type="color"[value]="color.color"(change)="changeColorOfColor($event.target)">
+
+<button> Xác nhận</button>
