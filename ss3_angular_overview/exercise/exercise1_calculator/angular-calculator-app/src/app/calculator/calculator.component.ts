@@ -7,8 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class CalculatorComponent implements OnInit {
 
-  num1: number = 0;
-  num2: number = 0;
+  numberFrist: number = 0;
+  numberSecond: number = 0;
   result: any;
 
 
@@ -19,18 +19,18 @@ export class CalculatorComponent implements OnInit {
   }
 
   getAddition() {
-    this.result = this.num1 + this.num2
+    this.result = this.numberFrist + this.numberSecond
   }
 
   getSubtraction(){
-    this.result= this.num1-this.num2
+    this.result= this.numberFrist-this.numberSecond
   }
   getMultiplication(){
-    this.result= this.num1*this.num2
+    this.result= this.numberFrist*this.numberSecond
   }
   getDivision(){
-    if (this.num2!=0){
-      this.result= this.num1/this.num2
+    if (this.numberSecond!=0){
+      this.result= this.numberFrist/this.numberSecond
     }
   }
 
