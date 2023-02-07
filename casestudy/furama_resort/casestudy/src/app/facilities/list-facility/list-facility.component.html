@@ -1,0 +1,62 @@
+<div style="min-height:58vh" class="container" >
+  <div style="text-align: center;margin: 5px">
+    <h1>List Facility</h1>
+
+    <a routerLink="/facilities/create">
+      <button style="margin: 10px" type="button" class="btn btn-info">Add New Facility</button>
+    </a>
+
+    <!--        <form >-->
+<!--    <div>-->
+<!--      <input #nameSearch type="text" name="nameSearch" placeholder="Search name" style="margin-right: 10px">-->
+<!--      <select style="margin-right: 10px;height: 30px;width: 70px" name="facilityType">-->
+<!--        <option value="" selected>Type</option>-->
+<!--        <option value=""></option>-->
+<!--      </select>-->
+<!--      <input type="submit" value="Search" (click)="search(nameSearch.value)">-->
+<!--    </div>-->
+    <!--        </form>-->
+  </div>
+  <table class="table table-dark" style="text-align: center; box-sizing: border-box;min-width: 100%;min-height: 196px;display: block">
+    <thead>
+    <tr>
+      <th>STT</th>
+      <th>Name</th>
+      <th>Area</th>
+      <th>Price</th>
+      <th>Max People</th>
+      <th>Standard Room</th>
+      <th>Description Other Convenience</th>
+      <th>Pool Area</th>
+      <th>Floors</th>
+      <th>Facility Free</th>
+      <th>Rent Type</th>
+      <th>Facility Type</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of facilities; let i = index">
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.area}}</td>
+      <td>{{item.cost}}</td>
+      <td>{{item.maxPeople}}</td>
+      <td>{{item.standardRoom}}</td>
+      <td>{{item.descriptionOfOtherConvenience}}</td>
+      <td>{{item.poolArea}}</td>
+      <td>{{item.numberOfFloors}}</td>
+      <td>{{item.facilityFree}}</td>
+      <td>{{item.rentType}}</td>
+      <td>{{item.facilityType}}</td>
+      <td><a class="btn btn-danger">edit</a></td>
+      <td>
+<!--        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="sendToDetailModal(item.id)">-->
+<!--          Delete Faclitity-->
+<!--        </button>-->
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
