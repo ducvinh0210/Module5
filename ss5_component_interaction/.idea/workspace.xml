@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c566f77-2e48-476d-b5a4-90ae9ff120c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/model/customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/model/facility.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_angular_overview/exercise/exercise1_calculator/angular-calculator-app/src/app/calculator/calculator.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_angular_overview/exercise/exercise1_calculator/angular-calculator-app/src/app/calculator/calculator.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_angular_component/angular-hackernews-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_angular_component/angular-hackernews-app/src/app/app.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2LOJuznYMgMU46qC1WGCmI78yxS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c566f77-2e48-476d-b5a4-90ae9ff120c8" name="Default Changelist" comment="" />
+      <created>1675736421706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675736421706</updated>
+      <workItem from="1675736422862" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="149" key="FileChooserDialogImpl" timestamp="1675736481070">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675736481070" />
+  </component>
+</project>
