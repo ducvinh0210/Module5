@@ -1,4 +1,4 @@
-<div style="min-height:58vh" class="container" >
+<div style="min-height:58vh" class="container" xmlns:th="http://www.w3.org/1999/xhtml">
   <div style="text-align: center;margin: 5px">
     <h1>List Facility</h1>
 
@@ -50,7 +50,13 @@
       <td>{{item.facilityFree}}</td>
       <td>{{item.rentType}}</td>
       <td>{{item.facilityType}}</td>
-      <td><a class="btn btn-danger">edit</a></td>
+      <td class="text-center">
+        <a routerLink="/facilities/edit/{{item.id}}">
+          <button class="btn btn-success btn-outline-secondary btn-sm">
+            <span class="fa-solid fa-user-pen text-light h6 m-auto px-2"></span>
+          </button>
+        </a>
+      </td>
       <td>
 <!--        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="sendToDetailModal(item.id)">-->
 <!--          Delete Faclitity-->
