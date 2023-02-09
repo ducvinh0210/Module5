@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c566f77-2e48-476d-b5a4-90ae9ff120c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/model/customer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/model/facility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../casestudy/furama_resort/casestudy/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_typescript/thuc_hanh/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_typescript/thuc_hanh/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss3_angular_overview/exercise/exercise1_calculator/angular-calculator-app/src/app/calculator/calculator.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_angular_overview/exercise/exercise1_calculator/angular-calculator-app/src/app/calculator/calculator.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss4_angular_component/angular-hackernews-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_angular_component/angular-hackernews-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/angular-countdown-timer-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/angular-countdown-timer-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/angular-countdown-timer-app/src/app/countdown-timer/countdown-timer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/angular-countdown-timer-app/src/app/countdown-timer/countdown-timer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6_angular_form/pratice/angular-todo-app/src/app/todo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6_angular_form/pratice/angular-todo-app/src/app/todo.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../casestudy" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="D:\Module-5\ss5_component_interaction\pracite\ss2_\angular-progress-bar\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,6 +49,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675736421706</updated>
       <workItem from="1675736422862" duration="75000" />
+      <workItem from="1675869122892" duration="1853000" />
+      <workItem from="1675877312500" duration="24000" />
     </task>
     <servers />
   </component>
@@ -47,9 +58,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="149" key="FileChooserDialogImpl" timestamp="1675736481070">
+    <state x="548" y="149" key="FileChooserDialogImpl" timestamp="1675877325817">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="548" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675736481070" />
+    <state x="548" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675877325817" />
   </component>
 </project>
