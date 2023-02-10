@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "name": "iphone 3333",
+      "price": 10000,
+      "description": "new 99%",
+      "category": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "iphone 14",
+      "price": 12555,
+      "description": "new 100%",
+      "category": {
+        "id": 1,
+        "name": "iphone"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sumsung ",
+      "price": 1200,
+      "description": "con moi",
+      "category": {
+        "id": 2,
+        "name": "Samsung"
+      }
+    },
+    {
+      "id": 7,
+      "name": "IphoneX",
+      "price": 1222,
+      "description": "hay",
+      "category": {
+        "id": 1,
+        "name": "iphone"
+      }
+    },
+    {
+      "name": "abc",
+      "price": 123,
+      "description": "đây là abc ",
+      "category": {
+        "id": 1,
+        "name": "iphone"
+      },
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": "",
+      "description": "",
+      "category": {
+        "id": 2,
+        "name": "Samsung"
+      },
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "iphone"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    },
+    {
+      "id": 3,
+      "name": "Nokia"
+    }
+  ]
+}
