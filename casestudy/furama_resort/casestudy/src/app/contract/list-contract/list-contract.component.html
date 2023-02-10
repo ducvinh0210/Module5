@@ -1,1 +1,47 @@
-<p>list-contract works!</p>
+<div class="p-3">
+  <h2 class="text-center fw-bold text-dark my-3">DANH SÁCH HỢP ĐỒNG</h2>
+
+  <nav class="navbar navbar-expand-lg py-0 my-2">
+    <div routerLink="/contracts/create" class="container-fluid">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="fa-solid fa-plus text-light h6 my-auto me-1"></span>
+        <span class="text-light"> Thêm mới hợp đồng</span>
+      </button>
+    </div>
+  </nav>
+  <table class="table table-light table-striped table-bordered">
+    <thead> 
+    <tr class="table-dark text-light">
+      <th class="text-center"><i class="fa-sharp fa-solid fa-bolt"></i></th>
+      <th>Tên dịch vụ</th>
+      <th>Tên nhân viên</th>
+      <th>Tên khách hàng</th>
+      <th>Ngày bắt đầu</th>
+      <th>Ngày kết thúc</th>
+      <th>Tiền đặt cọc</th>
+      <th>Tổng tiền</th>
+      <th class="text-center">Các dịch vụ đi kèm</th>
+    </tr>
+    </thead>
+    <tr>
+      <td class="text-center">STT</td>
+      <td>facilityName</td>
+      <td>employeeName</td>
+      <td>customerName</td>
+      <td>startDate</td>
+      <td>endDate</td>
+      <td>deposit</td>
+      <td>totalMoney</td>
+      <td class="text-center">
+        <button
+          class="btn btn-primary btn-outline-secondary btn-sm">
+          <span class="fa-solid fa-plus text-light h6 m-auto"></span>
+        </button>
+        <button class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3">
+          <span class="text-light m-auto">Danh sách dịch vụ đi kèm</span>
+        </button>
+      </td>
+    </tr>
+  </table>
+
+</div>
