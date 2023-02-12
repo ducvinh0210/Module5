@@ -1,0 +1,31 @@
+{
+  "customers": [
+    {"id": 1,
+      "name":"Le duc vinh",
+      "dateOfBirth":"22/11/2000",
+"gender": 1,
+"idCard": "1233444",
+"phoneNumber": "09009999",
+"email": "leducvinh1998@gmail",
+"customerType": "vip",
+"address":"Dai Minh"
+
+    }
+  ],
+
+
+
+
+
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
