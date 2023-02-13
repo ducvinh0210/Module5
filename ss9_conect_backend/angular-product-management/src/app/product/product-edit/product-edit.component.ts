@@ -17,7 +17,6 @@ export class ProductEditComponent implements OnInit {
   categoryList: Category[] = [];
 
 
-
   constructor(private productService: ProductService,
               private categoryService: CategoryService,
               private activatedRoute: ActivatedRoute,
@@ -55,7 +54,7 @@ export class ProductEditComponent implements OnInit {
   updateProduct(id: number) {
     const product = this.productForm.value;
     this.productService.updateProduct(id, product).subscribe(data => {
-     alert('cập nhật thành công');
+      alert('cập nhật thành công');
 
 
     })
@@ -66,4 +65,6 @@ export class ProductEditComponent implements OnInit {
   compareWithId(item1, item2) {
     return item1 && item2 && item1.id === item2.id;
   }
+
+
 }
