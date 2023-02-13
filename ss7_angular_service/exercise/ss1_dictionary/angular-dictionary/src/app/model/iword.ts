@@ -1,6 +1,6 @@
 export interface IWord {
 
-  word?:string;
-  mean?:string;
+  word?: string;
+  mean?: string;
 
 }
