@@ -13,25 +13,26 @@
     <thead>
     <tr class="table-dark text-light">
       <th class="text-center"><i class="fa-sharp fa-solid fa-bolt"></i></th>
-      <th>Tên dịch vụ</th>
-      <th>Tên nhân viên</th>
-      <th>Tên khách hàng</th>
+
       <th>Ngày bắt đầu</th>
       <th>Ngày kết thúc</th>
       <th>Tiền đặt cọc</th>
+      <th>Tên khách hàng</th>
+      <th>Tên Dịch vụ</th>
+
       <th>Tổng tiền</th>
       <th class="text-center">Các dịch vụ đi kèm</th>
     </tr>
     </thead>
-    <tr>
-      <td class="text-center">STT</td>
-      <td>facilityName</td>
-      <td>employeeName</td>
-      <td>customerName</td>
-      <td>startDate</td>
-      <td>endDate</td>
-      <td>deposit</td>
-      <td>totalMoney</td>
+    <tr *ngFor="let item of contracts; let i = index">
+      <td>{{i+1}}</td>
+      <td>{{item.startDate}}</td>
+      <td>{{item.endDate}}</td>
+      <td>{{item.deposit}}</td>
+      <td>{{item.customerName}}</td>
+      <td>{{item.facilityName}}</td>
+      <td></td>
+
       <td class="text-center">
         <button
           class="btn btn-primary btn-outline-secondary btn-sm">

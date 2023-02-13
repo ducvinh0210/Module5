@@ -1,0 +1,30 @@
+{
+  "contracts": [
+    {
+      "id": 1,
+      "startDate": "12/02/2022",
+      "endDate": "13/02/2022",
+      "deposit": 12000,
+      "customerName": "Le Duc Vinh",
+      "facilityName": "villa 123"
+    },
+    {
+      "id": 2,
+      "startDate": "12/02/2023",
+      "endDate": "13/02/2023",
+      "deposit": 122000,
+      "customerName": "Pham Thi Vi",
+      "facilityName": "villa 123"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

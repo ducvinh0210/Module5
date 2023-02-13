@@ -1,31 +1,42 @@
 {
   "customers": [
-    {"id": 1,
-      "name":"Le duc vinh",
-      "dateOfBirth":"22/11/2000",
-"gender": 1,
-"idCard": "1233444",
-"phoneNumber": "09009999",
-"email": "leducvinh1998@gmail",
-"customerType": "vip",
-"address":"Dai Minh"
-
-    }
-  ],
-
-
-
-
-
-
-  "comments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Le duc vinh",
+      "dateOfBirth": "22/11/2000",
+      "gender": 1,
+      "idCard": "1233444",
+      "phoneNumber": "09009999",
+      "email": "leducvinh1998@gmail",
+      "customerType": {
+        "id": 1,
+        "name": "vip"
+      },
+      "address": "Dai Minh"
+    },
+    {
+      "name": "nago",
+      "dateOfBirth": "1998-12-12",
+      "gender": 1,
+      "idCard": "999999999",
+      "phoneNumber": "0901234567",
+      "email": "vithipham@gmail.com",
+      "customerType": {
+        "id": 2,
+        "name": "binh thuong"
+      },
+      "address": "Viet Nam",
+      "id": 2
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "customerTypes": [
+    {
+      "id": 1,
+      "name": "vip"
+    },
+    {
+      "id": 2,
+      "name": "binh thuong"
+    }
+  ]
 }
