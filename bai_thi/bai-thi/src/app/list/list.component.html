@@ -1,0 +1,93 @@
+<div class="p-3 " style="min-height: 58vh">
+  <h2 class="text-center fw-bold text-dark my-3">DANH SÁCH BỆNH ÁN</h2>
+
+
+  <table class="table table-striped table-customer">
+    <thead>
+    <tr class="bg-dark text-light border-black">
+      <th>STT</th>
+      <th>Mã bệnh án</th>
+
+      <th>Mã bệnh nhân</th>
+      <th>Tên bệnh nhân</th>
+
+      <th>Ngày nhập viện</th>
+      <th>Ngày ra viện</th>
+      <th>Lý do nhập viện</th>
+      <th>Phương pháp điều trị</th>
+      <th>Bác sĩ điều trị</th>
+      <!--      <th class="text-center">View</th>-->
+      <th class="text-center">Edit</th>
+      <th class="text-center">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of benhAns   ; let i = index">
+      <td>{{i + 1}}</td>
+      <td>{{item.id}}</td>
+      <td>{{item.benhNhan.id}}</td>
+      <td>{{item.benhNhan.name}}</td>
+
+      <td>{{item.ngayNhap}}</td>
+
+
+      <td>{{item.ngayRa}}</td>
+
+      <td>{{item.lyDo}}</td>
+
+      <td>{{item.phuongPhap}}</td>
+      <td>{{item.bacSi}}</td>
+
+
+      <!--      <td class="text-center">-->
+      <!--        <a href="#">-->
+      <!--          <button class="btn btn-warning " style="margin-top: 5px;margin-bottom: 5px">-->
+      <!--            <i class=" fa-solid fa-user text-light h6 m-auto px-2" style="margin-top: 10px"></i>-->
+      <!--          </button>-->
+      <!--        </a>-->
+      <!--      </td>-->
+
+      <td class="text-center">
+        <a routerLink="/benhAn/edit/{{item.id}}">
+          <button class="btn btn-success " style="margin-top: 5px;margin-bottom: 5px">
+            <i class="fa-solid fa-user-pen text-light h6 m-auto px-2"></i>
+          </button>
+        </a>
+      </td>
+
+
+      <td class="text-center">
+        <button data-bs-toggle="modal" data-bs-target="#deleteCustomer"
+                class="btn btn-danger btn-outline-secondary btn-sm"
+                (click)="getInfoBenhAnDelete(item.benhNhan.name, item.id)">
+          <span class="fa-solid fa-person-circle-minus text-light h6 m-auto px-2"></span>
+        </button>
+      </td>
+
+
+    </tr>
+    </tbody>
+  </table>
+
+
+  <div class="modal fade" id="deleteCustomer" tabindex="-1" aria-labelledby="exampleModalLabel1"
+       aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modalCSS">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel1">Bạn có chắc chắn muốn xóa?</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{benhAnNameDelete}}</strong>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+          <button type="submit" class="btn btn-danger" data-bs-dismiss="modal" (click)="deleteBenhAn()">Xóa</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "benhAns": [
+    {
+      "ngayNhap": "2023-02-09",
+      "ngayRa": "2023-02-17",
+      "lyDo": "999999999",
+      "phuongPhap": "aabc ccjdjdjbc",
+      "bacSi": "ccccc",
+      "benhNhan": {
+        "id": 2,
+        "name": "Nguyen Van C"
+      },
+      "id": 2
+    }
+  ],
+  "benhNhans": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A"
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van C"
+    }
+  ]
+}
