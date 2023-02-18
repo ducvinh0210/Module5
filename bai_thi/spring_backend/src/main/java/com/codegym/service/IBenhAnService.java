@@ -14,11 +14,17 @@ public interface IBenhAnService {
 
     List<BenhAn> findAll();
 
-void remove(int id);
-Optional<BenhAn> findById(int id);
+    void remove(int id);
 
-Page<BenhAn>getAll(Pageable pageable);
+    Optional<BenhAn> findById(int id);
 
+    Page<BenhAn> getAll(Pageable pageable);
+
+    BenhAn save(BenhAn benhAn);
+
+    void update(BenhAn benhAn);
+
+    Page<BenhAn> findAllBenhAn(Pageable pageable);
 
 
 }
