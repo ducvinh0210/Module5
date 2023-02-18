@@ -8,7 +8,7 @@ import {BenhNhan} from "../model/benhNhan";
 })
 export class BenhNhanService {
 
-  private API_URL = 'http://localhost:3000/benhNhans';
+  private API_URL = 'http://localhost:8080/benhNhans';
 
   constructor(private httpClient: HttpClient) {
   }
