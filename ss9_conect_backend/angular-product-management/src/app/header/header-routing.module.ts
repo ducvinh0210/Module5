@@ -8,4 +8,6 @@ const routes: Routes = [];
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class HeaderRoutingModule { }
+export class HeaderRoutingModule {
+
+}

@@ -9,7 +9,7 @@
     <th>Danh mục</th>
     <th colspan="2" style="text-align: center">Trạng thái</th>
   </tr>
-  <tr *ngFor="let product of products | paginate: { itemsPerPage: 2, currentPage: p }; index as i">
+  <tr *ngFor="let product of products | paginate:  { itemsPerPage: 2, currentPage: p }; index as i">
     <td>{{i + 1}}</td>
     <td>{{product.name}}</td>
     <td>{{product.price}}</td>
